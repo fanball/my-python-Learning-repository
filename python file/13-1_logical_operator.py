@@ -1,0 +1,15 @@
+"""
+逻辑运算符里含有：
+and-->逻辑与
+or-->逻辑或
+not-->逻辑非
+简单来说：
+and:结合方向从左到右,其中一个bool为False,结果则为False
+or:结合方向从左到右,其中一个bool为True,结果则为True
+not:结合方向从右到左,将bool式子的结果取反,只能为一个值取反
+用法分别是：
+两个True使用and返回True,使用or返回True,使用not返回False
+两个False使用and返回false,使用or返回False,使用not返回True
+True和False使用and返回False,使用or返回True,使用not返回False
+False和True使用and返回False,使用or返回True,使用not返回True
+"""

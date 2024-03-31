@@ -1,0 +1,9 @@
+#输入输出语句也是典型的顺序结构
+name=input("请输入您的姓名：")
+age=eval(input("请输入您的年龄："))
+high=eval(input("请输入您的身高："))
+weight=eval(input("请输入您的体重："))
+print("您的姓名是",name)
+print("您的年龄是",age)
+print("您的身高是",high)
+print("您的体重是",weight)
